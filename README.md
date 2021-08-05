@@ -64,10 +64,10 @@
   
 ### フレームワーク、ライブラリー
   - React: 5年
-    Next.js: 4年
+    - Next.js: 4年
       - Next.js 2.0の頃から利用を開始しました。動的なルーティングやApp Component(_document.js, _app.js)がまだない頃でしたが、webpackの負担軽減やSSRに魅力を感じ導入を決めました。
-    Redux
-    Recoil
+    - Redux
+    - Recoil
     - GraphQL
       - Apollo Client
       - urql
@@ -114,7 +114,7 @@
     - iOSのアプリ作成時はraywenderlich.comの本とチュートリアルを主に参考にしました。。
     - 2015年からのES2015のキャッチアップはSecrets of the JavaScript Ninja, Second Editionを写経を繰り返して身につけました。
   - ソースコードのクオリティの担保としてはオープンソースとして公開されている企業コードを参考にすることが多かったです。
-    - F8 App 2016 (F8のイベントのReact Nativeアプリ)
+    - F8 App 2016 (F8のイベントのReact Nativeアプリ、2016年版は独自Flux、2017版はRedux)
     - mtc2018-app (mtc2018-webのイベントのReact/Apollo Client/Next.js)
 
 #### 要望
