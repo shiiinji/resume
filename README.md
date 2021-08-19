@@ -56,8 +56,9 @@ AWSのEC2にnginx、node.jsを構築していた開発環境をフロントエ�
 
 | # | 期間 | 内容 | 開発チーム | 
 | --- | --- | --- | --- |
-| 1 | 2019/12<br />〜<br />2020/1 | 開発基盤の技術検証を行い、フロントエンドはJamstackをベースにヘッドレスCMSのGraphCMSとBaaS(Cloud Firestore)をVercelにデプロイ、バックエンドはCloud Functions、アドミン系はCloud Runに構築、データはBigQueryに集める構成にスタックの導入することを決めました。 | 1名 (本人)
+| 1 | 2019/12<br />〜<br />2020/1 | 開発基盤の技術検証を行い、フロントエンドはJamstackをベースにヘッドレスCMSのGraphCMSとBaaS(Cloud Firestore)をVercelにデプロイ、バックエンドはCloud Functions、アドミン系はCloud Runに構築、データ分析環境はFirebase Analytics、Firebase ExportsとFivetranの処理によりBigQueryに集める構成にスタックの導入することを決めました。データパイプライン等の導入は断念し、GraphCMS・AlgoliaのデータはFirebase FunctionsのpubsubでFirestoreにデータ追加した後、Firebase Exportsにより自動でBigQueryにデータエクスポートする構成にしました。 | 1名 (本人)
 | 2 | 2019/2<br />〜<br />2020/6 | 時事通信社のRSS取得とGraphCMSのバックアップ部分を除く、大部分のフロントエンドとバックエンドの開発を担当しました。 | 2名 (本人含む)
+| 3 | 2021/2<br />〜<br />現在 | 運営中・新規プロジェクトを横断してものづくり産業に関わる企業様が利用できるSaaSサービス開発中しております。*半育休中しながらの開発期間を含みます。 | 1名 (本人含む)
 | |
 
 
