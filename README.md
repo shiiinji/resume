@@ -149,11 +149,14 @@ AWSのEC2にnginx、node.jsを構築していた開発環境をフロントエ�
   - Material UI
     - UIコンポーネントフレームワークを使ってのWebアプリケーション開発を好みます。UIコンポーネントにより素早く、コードの読みやすさ、長期的な保守運営するのは必須であると考えています。
     - その中で、Material UIを選択した理由は2016年当時では最も安定したUIコンポーネントフレームワークだったからです。
+  - ESLint
+  - Prettier
   - Jest
   - React Testing Library
   - Cypress
     - 仕様があまり固まった状態ではなくプロトタイプを作成、フィードバックを繰り返して開発していたこともあり、テストファーストの実施はしておりませんでした。ある程度、プロダクトが固まったら段階的にテストコードを追加していました。
     - テストはE2Eを中心に薄くしか実施できていません。E2EはBDDベース、画面遷移やボタンアクションのテストを中心にテストしております。
+  
 
 ### バックエンド
   - Node.js
@@ -183,6 +186,7 @@ AWSのEC2にnginx、node.jsを構築していた開発環境をフロントエ�
       - Cloud Firestore、Cloud Storageを使ってのサーバーレス開発の経験はあります
     - 2019年まではAWSでシンプルなEC2, S3, CloudFrontを使っていましたが、運用プロジェクトの増加により煩雑になったため、2020年よりフルマネージド型に強みがあるGCPを中心に利用を開始しました。また、Cloud Storage for FirebaseとBigQueryの自動同期（Firebase Extensions）の存在もGCP以降への強いきっかけとなりました。
   - Github Actions
+    - コミット時にBuild、ESLint、Jest、Cypressをトリガーして、失敗時にSlackに通知するのみのシンプルな利用になります。
   - Docker
    
    
