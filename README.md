@@ -262,6 +262,9 @@ AWSのEC2にnginx、node.jsを構築していた開発環境をフロントエ�
 
 具体的には、フロントエンドはVercel, サーバー環境はCloud Run, App EngineまたはCloud Functions、データベースをFirestore、CMS環境はWordpressからGraphCMS、データ基盤としてBigQueryの利用に伴い、以前の構成に比べて70%近くコストを下げ、尚且つ管理コストを下げることに成功しました。
 
+### ポートフォリオサイト
+
+- https://github.com/shiiinji/shiiinji.dev
 
 
 #### 要望
