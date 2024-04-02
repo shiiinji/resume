@@ -286,7 +286,7 @@ Reactのフロントエンドの機能実装、テスト環境等の開発環境
 
 ### OSS
 
-- https://github.com/FirebaseExtended/reactfire/pulls?q=is%3Apr+is%3Aclosed
+- https://github.com/FirebaseExtended/reactfire/pull/431
 - https://github.com/firebase/firebaseui-web-react/pull/158
 
 
